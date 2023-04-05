@@ -1,4 +1,4 @@
-# String-Analyzer
+# TEKNOFEST 2023
 
 Türkçe Doğal Dil İşleme araçlarının daha çok gelişmesi için yeni kütüphaneler tasarlandı. String Analyzer metin madenciliği için geliştirilmiş bir araçtır. 
 Bu araç metinsel veriler üzerinde daha kolay ve daha doğru veri ön işleme modeli sunmaktadır.
