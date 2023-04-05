@@ -12,7 +12,7 @@ st.set_page_config(page_title="MergenSoftAI", layout="wide", initial_sidebar_sta
 with st.sidebar:
     selected = option_menu(
         menu_title="MergenSoftAI",
-        options=["Metin Analizi", "Sınıflandırma", "Dökümantasyon"],
+        options=["Metin Analizi"],
         icons=["chat-square-text", "bar-chart-fill", "bookmark"],
         default_index=0,
         menu_icon="braces"
@@ -97,9 +97,5 @@ if selected == 'Metin Analizi':
                     )
 
 
-elif selected == 'Sınıflandırma':
-    st.title("Metin Sınıflandırma")
 
-elif selected == 'Dökümantasyon':
-    st.title("StringAnalyzer")
 
