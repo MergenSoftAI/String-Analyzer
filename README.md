@@ -3,7 +3,9 @@
 Türkçe Doğal Dil İşleme araçlarının daha çok gelişmesi için yeni kütüphaneler tasarlandı. String Analyzer metin madenciliği için geliştirilmiş bir araçtır. 
 Bu araç metinsel veriler üzerinde daha kolay ve daha doğru veri ön işleme modeli sunmaktadır.
 
-## Confusion Matrix
+## LSTM
+
+### Confusion Matrix
 
 LSTM için **confusion matrix**
 
@@ -22,6 +24,8 @@ plt.ylabel('True')
 plt.show() 
 
 ``````
+
+<img src="https://github.com/MergenSoftAI/String-Analyzer/blob/main/Confusion%20Matrix.png" alt="Confusion Matrix" width="500"/>
 
 ## F1 Skor
 
@@ -46,4 +50,9 @@ print("Train F1 score: ", f1_train)
 print("Test F1 score: ", f1_test)
 
 ``````
+
+<img src="https://github.com/MergenSoftAI/String-Analyzer/blob/main/F1%20Skor.png" alt="F1 Skor" width="500"/>
+
+
+
 
