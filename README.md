@@ -1,7 +1,7 @@
 # TEKNOFEST 2023
 
 Türkçe Doğal Dil İşleme araçlarının daha çok gelişmesi için yeni kütüphaneler tasarlandı. String Analyzer metin madenciliği için geliştirilmiş bir araçtır. 
-Bu araç metinsel veriler üzerinde daha kolay ve daha doğru veri ön işleme modeli sunmaktadır.
+Bu araç metinsel veriler üzerinde daha kolay ve daha doğru veri ön işleme modeli sunmaktadır. LSTM ve Lojistik Regresyon modeli kullanılmıştır.
 
 ## LSTM
 
@@ -27,7 +27,7 @@ plt.show()
 
 <img src="https://github.com/MergenSoftAI/String-Analyzer/blob/main/Confusion%20Matrix.png" alt="Confusion Matrix" width="500"/>
 
-## F1 Skor
+### F1 Skor
 
 ```python
 from sklearn.metrics import f1_score
@@ -53,6 +53,17 @@ print("Test F1 score: ", f1_test)
 
 <img src="https://github.com/MergenSoftAI/String-Analyzer/blob/main/F1%20Skor.png" alt="F1 Skor" width="500"/>
 
+## Lojistik Regresyon
 
+### F1 Skor
+```python
+from sklearn.metrics import f1_score
+# Test verilerinin tahmini
+y_pred = lr.predict(X_test_)
+# F1 skoru hesaplama
+f1 = f1_score(y_test_, y_pred, average='weighted')
+print("F1 score:", f1)
 
+``````
+<img src="https://github.com/MergenSoftAI/String-Analyzer/blob/main/LR%20F1%20Skor.png" alt="F1 Skor" width="500"/>
 
