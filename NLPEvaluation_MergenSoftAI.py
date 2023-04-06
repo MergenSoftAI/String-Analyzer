@@ -101,6 +101,5 @@ iface = gr.Interface(get_file, "file", "file")
 if __name__ == "__main__":
     iface.launch(share=True, auth=auth)
 
-output_file = "output_Lingua.csv"
-df = pd.read_csv(file.name, sep="|")
+
 
